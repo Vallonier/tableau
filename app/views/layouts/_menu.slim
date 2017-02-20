@@ -1,0 +1,12 @@
+.menu
+	.content
+		a href="#{root_path}"
+			h2 style="float:left;" Tableau
+
+		- if current_user
+			.item.right #{link_to "Logout", destroy_user_session_path, method: :delete}
+		- else
+			a href="#{new_user_registration_path}"
+				.item.right Register
+			a href="#{new_user_session_path}"
+				.item.right Login

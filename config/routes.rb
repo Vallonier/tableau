@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
   authenticated do
-    root 'site#account', as: :authenticated
+    root 'user#account', as: :authenticated
   end
   root 'site#index'
 

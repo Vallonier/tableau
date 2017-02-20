@@ -3,70 +3,12 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import 'application';
 
-.sub_menu{
-	padding:20px;
-}
-
-.hover_form{
-	position: absolute; z-index:100;
-	left:calc(50% - 250px); top:20%;
-	min-width:300px; padding:10px;
-	width:500px; background-color:white;
-	border:1px solid #999; border-radius:5px;
-	input[type="submit"], button, input{
-		border:1px solid #ccc; border-radius:3px;
-	}
-}
-
-.button_to{
-	display:inline-block; margin:0 5px 0 0;
-}
-
-.app_card{
-	border:1px #ccc solid; margin:5px;
-	float:none; display:inline-block;
-	width:32%; height:150px;
-}
-
-.app_menu{
-	background-color:$base_color;
-	overflow:hidden;
-	padding:10px; 
-	a { color:white; }
-	font-family: 'gotham_light';
-	& .text{
-		color:white;
-		float:left;
-
-		&.right{
-			float:right;
-		}
-	}
-}
-
-.app_user_list{
-	overflow:hidden; 
-	& .list{
-		overflow:hidden; background-color:#f7f7f7;
-		width:48.5%; margin:2px 1% 2px 0.5%; float:left;
-		img{ width:30px; margin:5px 5px 5px 0 ;}
-		& .content{float:left; line-height:1.1em; border-left:1px dotted #ddd;}
-	}
-	& .show_more{ 
-		padding:5px 8px; color:#333; 
-		margin:5px 2px; text-align:center; 
-		background-color:#f7f7f7;
-		&:hover{ background-color:#333; color:white; }
-	}
-
+.login_box{
+	background-color:rgba(black, 0.6);
+	border-radius:10px; padding:20px 10px;
+	a{color:white;}
 }
 
 @media only screen and (max-width: 480px) {
-	.full_home{
-		& .text{
-			font-size:16px;
-			h1{ font-size:30px; }
-		}
 
-	}
 }
