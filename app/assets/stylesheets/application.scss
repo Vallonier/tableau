@@ -14,11 +14,15 @@
  *= require_self
  */
 
+$site_size:1100px;
 
 $base_color:#333;  // Change based on Site theme
 $primary_color:#333;  // Change based on Site theme
 $secondary_color:#333;  // Change based on Site theme
+.primary_color{color:#333;} 
+.secondary_color{color:#333;} 
 
 $primary_font:'gotham_light';  // Change based on Site theme
 $secondary_font:'gotham';  // Change based on Site theme
 $third_font:'webly_reg';  // Change based on Site theme
+$bold_font:'gotham_bld';
