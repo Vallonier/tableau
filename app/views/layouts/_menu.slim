@@ -1,7 +1,8 @@
 .menu
 	.content
 		a href="#{root_path}"
-			h2 style="float:left;" Tableau
+			img.left src="/assets/logo.svg" width="35px" style="margin:2px 6px 0 0;"
+			h2.left Tableau
 
 		- if current_user
 			.item.right #{link_to "Logout", destroy_user_session_path, method: :delete}

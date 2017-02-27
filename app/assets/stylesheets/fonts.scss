@@ -7,7 +7,13 @@
   &.small{ font-size: 30px; margin-bottom:5px; }
 }
 
-h1, h2, h3, h4, h5, h6{ font-family:$secondary_font; }
+h1, h2, h3, h4, h5, h6{ 
+	font-family:$primary_font;
+	&.white{ color:white; }
+}
+.bold{ font-family:$bold_font; margin:0.2em 0 0 0.2em;}
+.shadow{ text-shadow:#666 0.05em 0.05em; }
+
 .full_pg_title{ font-weight:lighter; font-family:$secondary_font; color:#fff; font-weight:bold; margin:15px auto; }
 
 @media only screen and (max-width: 480px) {

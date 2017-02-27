@@ -1,4 +1,4 @@
-.full_top.bg_scroll.full_center style="background-image:url('/assets/login.jpeg'); height:80%; background-position:50% 60%;"
+.full_top.bg_scroll.full_center style="background-image:url('/assets/login.jpeg'); height:50%; background-position:50% 40%;"
 
   .wrapper.row
     .col-sm-8
@@ -20,7 +20,6 @@
           br
           = f.password_field :password, autocomplete: "off", placeholder:'Password'
         
-
         br
         - if devise_mapping.rememberable?
           = f.check_box :remember_me
